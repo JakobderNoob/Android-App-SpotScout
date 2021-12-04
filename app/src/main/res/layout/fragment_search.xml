@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".ui.search.searchFragment">
+    <LinearLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <SearchView
+            android:id="@+id/suchleiste"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:iconifiedByDefault="false"
+            android:queryHint="Suche einen Coolen Ort" />
+
+        <Button
+            android:id="@+id/filteropenclose"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Filter"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/filterTabsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <Button
+            android:id="@+id/amwasserFilter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:text="Am Wasser"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/aussichtsplattformFilter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:text="Aussichts plattform"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/lostplaceFilter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:text="Lost-Place"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/filterTabsLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <Button
+            android:id="@+id/überdachtFilter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:text="Überdacht"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/mittenindernachtFilter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:text="Mitten in der Natur"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/urbanFilter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:text="Urban"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:id="@+id/sortTabsLayout2">
+
+<Button
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:textSize="10sp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:id="@+id/alleFilter"
+    android:text="Alle">
+
+</Button>
+
+<Button
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:textStyle="normal"
+    android:textSize="10sp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:id="@+id/nachentfernungFilter"
+    android:text="Nach Entfernung">
+
+</Button>
+
+<Button
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:textSize="10sp"
+    android:layout_marginLeft="1dp"
+    android:textStyle="normal"
+    android:layout_marginRight="1dp"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:id="@+id/nachbewertungFilter"
+    android:text="Nach Bewertung">
+
+</Button>
+
+
+</LinearLayout>
+
+    <ListView
+        android:id="@+id/search_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

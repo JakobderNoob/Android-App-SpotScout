@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1022892612284",
+    "project_id": "mapsappv2-fe24a",
+    "storage_bucket": "mapsappv2-fe24a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022892612284:android:c2db8bfb0f7d786a364eb9",
+        "android_client_info": {
+          "package_name": "prime.mapapp.mapsappv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022892612284-gvml9u384eogkgqe6e3hid77n757tmfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6b05zNB9MouwSXmHrR-tm0pEOcZ1gTeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022892612284-gvml9u384eogkgqe6e3hid77n757tmfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

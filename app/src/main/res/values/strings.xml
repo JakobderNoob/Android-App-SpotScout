@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SpotScout</string>
+    <string name="navigation_drawer_open">Öffne die Navigation</string>
+    <string name="navigation_drawer_close">Schließe die Navigation</string>
+    <string name="nav_header_title">SpotScout</string>
+    <string name="nav_header_subtitle">Keine Öffentliche Version (Alpha)</string>
+    <string name="nav_header_desc">Navigation</string>
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="menu_home">Einstellungen</string>
+    <string name="menu_gallery">Karte</string>
+    <string name="menu_slideshow">Ort hinzufügen</string>
+    <string name="TextViewAddPlace">Wenn du einen Interessanten Ort gefunden hast, kannst du ihn gerne Eintragen! \n Gibt dafür einfach einen passenden Namen und eine kurze Beschreibung ein. Nachdem du einen Ort ausgewählt hast (Du muss den Maker verschieben) und die Nutzungsbedingungen akzeptiert hast, kannst die den Ort veröffentlichen. Noch viel Spaß beim Erkunden!</string>
+    <string name="Textfeldüberschrift">Title des Ortes</string>
+    <string name="Textfeldinfo">Kurze Beschreibung des Ortes</string>
+    <string name="checkbox">Ich akzeptiere die Nutzungsbedingungen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="menu_search">Suche</string>
+
+    <string-array name="typ">
+        <item>Bitte auswählen</item>
+        <item>Lost-Place</item>
+        <item>Aussichtsplattform</item>
+        <item>Überdacht</item>
+        <item>Mitten in der Natur</item>
+        <item>Urban</item>
+        <item>Am Wasser</item>
+    </string-array>
+
+<string-array name = "darkmode">
+    <item>System Einstellung</item>
+    <item>Dark Mode</item>
+    <item>Light Mode</item>
+</string-array>
+</resources>
